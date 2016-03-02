@@ -1,0 +1,15 @@
+* {
+  font-family: 'Slabo 25px', serif;
+}
+
+.schedule {
+  padding-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.checked {
+  text-decoration: line-through;
+}

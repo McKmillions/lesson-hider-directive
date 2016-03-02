@@ -1,0 +1,9 @@
+
+<li class="schedule">
+  <input ng-click="checkLesson()" ng-model="checked" type="checkbox">
+  {{lesson}}
+
+  <button type="button" ng-click="dayAlert({lesson: lesson, day: lessonDay})" class="btn">
+    Day Alert
+  </button>
+</li>
